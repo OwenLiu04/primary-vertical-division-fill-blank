@@ -1,0 +1,5 @@
+{
+  "name": "小学竖式除法填空",
+  "description": "一个帮助小学生练习竖式除法填空题的应用，支持自动出题和答案校验。",
+  "requestFramePermissions": []
+}
