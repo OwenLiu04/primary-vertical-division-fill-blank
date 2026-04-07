@@ -22,7 +22,21 @@ The entire application is bundled into a **single HTML file**, making it incredi
 ### 🚀 Getting Started
 
 #### For Users (No installation required)
-Simply download the latest `index.html` file from the [Releases](../../releases) page and double-click it to open it in any modern web browser (Chrome, Edge, Safari, Firefox).
+Simply download the latest `primary-vertical-division-fill-blank-v1.0.0.html` file from the [Releases](../../releases) page and double-click it to open it in any modern web browser (Chrome, Edge, Safari, Firefox).
+
+#### For Developers (Build from source)
+1. Open a command-line tool (such as PowerShell or CMD) in the project folder.
+2. Run the following command to install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the following command to build:
+   ```bash
+   npm run build
+   ```
+After the build is complete, you will find a file named `index.html` in the `dist` folder under the project directory.
+
+This `index.html` is a single file containing all code and resources. You can double-click it to open it in your browser directly, without any local server environment, making it very convenient for sharing and offline use!
 
 ---
 
@@ -44,4 +58,18 @@ Simply download the latest `index.html` file from the [Releases](../../releases)
 ### 🚀 快速开始
 
 #### 面向普通用户（无需安装）
-只需从 [Releases](../../releases) 页面下载最新的 `index.html` 文件，双击即可在任何现代网页浏览器（如 Chrome, Edge, Safari, Firefox）中直接打开使用。
+只需从 [Releases](../../releases) 页面下载最新的 `primary-vertical-division-fill-blank-v1.0.0.html` 文件，双击即可在任何现代网页浏览器（如 Chrome, Edge, Safari, Firefox）中直接打开使用。
+
+#### 面向开发者（从源码构建）
+1. 在源代码文件夹中打开命令行工具（如 PowerShell 或 CMD）。
+2. 运行以下命令安装依赖：
+   ```bash
+   npm install
+   ```
+3. 运行以下命令进行构建：
+   ```bash
+   npm run build
+   ```
+构建完成后，您会在项目目录下的 `dist` 文件夹中找到一个名为 `index.html` 的文件。
+
+这个 `index.html` 就是包含了所有代码和资源的单个文件。您可以直接双击在浏览器中打开它，无需任何本地服务器环境，非常方便分享和离线使用！
